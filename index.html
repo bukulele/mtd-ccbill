@@ -31,6 +31,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link href="/styles.css" rel="stylesheet" />
     <title>Processed by CCBill</title>
     <noscript>
       <link
@@ -39,45 +40,6 @@
       />
     </noscript>
   </head>
-  <style>
-    .webp {
-      position: relative;
-      background: url("bg-main-top.jpg") center 100px / 100% no-repeat, white;
-    }
-
-    .webp::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      max-height: 100px;
-      background-color: black;
-      z-index: 1;
-      width: 100%;
-      aspect-ratio: 960/95;
-    }
-    .flexforms_wrapper {
-      z-index: 2;
-      position: relative;
-    }
-
-    @media screen and (max-width: 1010px) {
-      .webp {
-        position: relative;
-        background: url("bg-main-top.jpg") center 37px / 100% no-repeat, white;
-      }
-    }
-
-    @media screen and (max-width: 400px) {
-      .webp {
-        position: relative;
-        background: url("bg-main-bottom.jpg") center top / 100% 37px no-repeat,
-          url("bg-main-top.jpg") center 37px / 100% no-repeat, white;
-        background-color: white;
-      }
-    }
-  </style>
   <body class="webp">
     <script>
       var isAuthenticated = false;
