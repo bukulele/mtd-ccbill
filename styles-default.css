@@ -619,6 +619,7 @@ body {
   background-color: black;
   z-index: 1;
   width: 100%;
+  min-width: 100%;
   aspect-ratio: 960/95;
 }
 
